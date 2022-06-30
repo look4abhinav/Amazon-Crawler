@@ -129,7 +129,5 @@ dmypy.json
 .pyre/
 
 
-# Custom Files
+# Custom Environment
 ./env
-./edgedriver*.zip
-./msedge*.exe
