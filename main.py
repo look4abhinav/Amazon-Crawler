@@ -18,7 +18,7 @@ try:
     print("Starting Crawler")
     driver.get(url)
     search_box = driver.find_element(By.ID,'twotabsearchtextbox')
-    search_box.send_keys(search_string[0])
+    search_box.send_keys(search_string[1])
     search_box.send_keys(Keys.RETURN)
 
     products = driver.find_elements(By.TAG_NAME, 'span')
