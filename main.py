@@ -26,7 +26,7 @@ try:
     count = 0
     print(f"Products = {len(products)} /n {type(products[1])}")
     for p in products:
-        if len(p.text) > 10:
+        if len(p.text) > 30:
             print(p.text)
             count += 1
     print(f'{ count = }')
